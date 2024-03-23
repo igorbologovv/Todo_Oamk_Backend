@@ -1,0 +1,12 @@
+# GET Request to retrieve all tasks
+GET http://localhost:3001/
+
+# POST Request to add a new task
+POST  http://localhost:3001/new 
+Content-Type: application/json
+
+{
+    "description": "Write REST API documentation"
+}
+DELETE http://localhost:3001/delete/1
+
